@@ -6,6 +6,7 @@ body{
 }
 h1{
     font-size: 50px;
+    
 }
 
 .link{
@@ -14,12 +15,14 @@ h1{
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 20px;
+    background: linear-gradient(orange,tomato);
 }
 span{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -27,7 +30,7 @@ section{
     padding-right: 20px;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -37,4 +40,19 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 20px 40px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-left: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(orange,tomato) 30;
+}
+.ecperience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
